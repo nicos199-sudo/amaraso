@@ -27,7 +27,7 @@ SECRET_KEY = '6!jds3@!t5yku9*wxk70qk7cidj2jk^7phs5mqh!&9v1gmnrs6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://bloodbankjoel.herokuapp.com/','127.0.0.1']
+ALLOWED_HOSTS = ['165.227.38.57','localhost']
 
 
 # Application definition
@@ -94,7 +94,7 @@ WSGI_APPLICATION = 'projet.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'bloodbankdb',
+        'NAME': 'bank',
         'USER': 'joelle',
         'PASSWORD': 'password',
         'HOST': 'localhost',
